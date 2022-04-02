@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.mainHeader {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  width: 506px;
+  text-transform: uppercase;
+}

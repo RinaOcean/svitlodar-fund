@@ -1,0 +1,31 @@
+.header {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  align-items: center;
+}
+
+.svitloDarLogo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 20px;
+}
+
+.svitlo {
+  color: #E7CE1C;
+}
+
+.dar {
+  color: #2584CB;
+}
+
+.charityFund {
+  color: #b9b9b9;
+  font-weight: 800;
+  font-size: 16.5px;
+  
+}
