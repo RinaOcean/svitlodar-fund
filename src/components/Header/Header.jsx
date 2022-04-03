@@ -1,5 +1,6 @@
 import Container from '../Container'
 import styles from './Header.module.css'
+import { NavLink, Link } from "react-router-dom";
 
 
 const Header = () => {
@@ -15,6 +16,9 @@ const Header = () => {
       </div>
 
       <nav className={styles.headerNav}>
+        <NavLink to="/">about us</NavLink>
+        <Link to="/">what we do</Link>
+
         <span className={styles.headerNavItem}>about us</span>
         <span className={styles.headerNavItem}>what we do</span>
         <span className={styles.headerNavItem}>contacts</span>

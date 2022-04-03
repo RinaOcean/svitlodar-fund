@@ -1,0 +1,48 @@
+.aboutUs {
+  background-color: #2584CB;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+}
+
+.headding {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+
+/* .eclipseOneImg {
+  position: absolute;
+  height: 845px;
+  width: 800px;
+} */
+
+.eclipseTwo {
+  position: absolute;
+  height: 300px;
+  top: 48%;
+  left: -20px;
+}
+
+.imgWrapper {
+  position: relative;
+  margin: 0 auto;
+  height: 845px;
+  width: 810px;
+  padding: 150px 150px 150px 260px;
+
+  background-image: url('../../assets/yellowEllipse.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
