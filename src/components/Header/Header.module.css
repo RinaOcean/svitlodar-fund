@@ -1,14 +1,33 @@
 .header {
+  display: flex;
+  align-items: center;
   padding-top: 21px;
   padding-bottom: 21px;
+
+  font-family: Roboto, sans-serif;
+ }
+
+ .headerNav {
+  display: flex;
   align-items: center;
+}
+
+.headerNavItem {
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #757575;
+}
+
+.headerNavItem:not(:last-child) {
+  margin-right: 40px;
 }
 
 .svitloDarLogo {
   display: flex;
   flex-direction: column;
   width: 100%;
-  font-family: Roboto, sans-serif;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 22px;
@@ -29,3 +48,4 @@
   font-size: 16.5px;
   
 }
+

@@ -1,6 +1,7 @@
 .main {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .mainHeader {
@@ -10,5 +11,23 @@
   line-height: 130%;
   letter-spacing: 0.03em;
   width: 506px;
-  text-transform: uppercase;
+  text-transform: uppercase ;
+}
+
+.heartImg {
+  margin-right: -30px;
+}
+
+@media (min-width: 1200px) {
+  .main {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .main {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
