@@ -1,7 +1,7 @@
 import Container from '../Container'
 import styles from './Header.module.css'
-import { NavLink, Link } from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll"
 
 const Header = () => {
   return (
@@ -16,12 +16,16 @@ const Header = () => {
       </div>
 
       <nav className={styles.headerNav}>
-        <NavLink to="/">about us</NavLink>
-        <Link to="/">what we do</Link>
-
-        <span className={styles.headerNavItem}>about us</span>
-        <span className={styles.headerNavItem}>what we do</span>
-        <span className={styles.headerNavItem}>contacts</span>
+        <Link  activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={60}
+          duration={500}>about us
+        </Link>
+        
+        <NavLink className={styles.headerNavItem} to="/">what we do</NavLink>
+        <NavLink className={styles.headerNavItem} to="/">contacts</NavLink>
       </nav>
 
     </div>

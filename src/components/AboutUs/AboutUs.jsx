@@ -5,7 +5,7 @@ import eclipseTwo from '../../assets/ellipseTwo.svg'
 
 const AboutUs = () => {
   return (
-    <section className={styles.aboutUs}>
+    <section id="about" className={styles.aboutUs}>
       <Container>
         <h1 className={styles.headding}>about us</h1>
         <div className={styles.imgWrapper}>
