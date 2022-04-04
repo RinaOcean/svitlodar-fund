@@ -18,6 +18,8 @@
   font-weight: 700;
   text-transform: uppercase;
   color: #757575;
+
+  cursor: pointer;
 }
 
 .headerNavItem:not(:last-child) {

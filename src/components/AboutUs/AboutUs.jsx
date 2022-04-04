@@ -1,6 +1,6 @@
 import Container from '../Container'
 import styles from './AboutUs.module.css'
-import yellowEclps from '../../assets/yellowEllipse.svg'
+// import yellowEclps from '../../assets/yellowEllipse.svg'
 import eclipseTwo from '../../assets/ellipseTwo.svg'
 
 const AboutUs = () => {
