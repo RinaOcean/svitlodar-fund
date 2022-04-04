@@ -16,7 +16,7 @@ const Header = () => {
       </div>
 
       <nav className={styles.headerNav}>
-        <Link  activeClass="active"
+        <Link className={styles.headerNavItem}  activeClass={styles.headerNavItem}
           to="about"
           spy={true}
           smooth={true}
