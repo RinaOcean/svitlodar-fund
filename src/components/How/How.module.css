@@ -1,0 +1,87 @@
+.mainHeader {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-bottom: 35px;
+}
+
+.descriptionMain {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  padding-bottom: 14px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  padding: 40px;
+  color: white;
+}
+
+.descriptionYellow {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  padding: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+
+.gridFirstCards {
+  background-color: #2584cb;
+  box-shadow:  3px 6px 7px 3px  rgb(122, 122, 122, 0.7);
+}
+
+.gridThirdCard {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #ffe21a;
+  box-shadow: 3px 6px 7px 3px  rgb(122, 122, 122, 0.7);
+}
+
+.contentBlue {
+  display: grid;
+  justify-content: center;
+  color: white;
+  padding-top: 37px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+}
+
+.contentYellow {
+  display: grid;
+  justify-content: center;
+  padding-top: 37px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+}
+
+@media (min-width: 1200px) {
+  .main {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .main {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+}

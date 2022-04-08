@@ -1,14 +1,24 @@
 import './App.css';
 import AboutUs from './components/AboutUs/AboutUs';
+import Contacts from './components/Contacts';
+import Footer from './components/Footer';
 import Header from './components/Header';
+import How from './components/How';
 import Main from './components/Main';
+import WhatWeDo from './components/WhatWeDo';
+import Why from './components/Why';
 
 function App() {
   return (
     <div className="App">
      <Header/>
      <Main/>
-     <AboutUs/>
+     {/* <AboutUs/>
+     <WhatWeDo/>
+     <How/>
+     <Why/>
+     <Contacts/>
+     <Footer/> */}
     </div>
   );
 }

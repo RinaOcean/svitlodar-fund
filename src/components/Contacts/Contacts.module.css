@@ -1,0 +1,26 @@
+.aboutUs {
+  background-image: url('../../assets/ukraine-flag.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 933px;
+  width: 100%;
+
+}
+
+.headding {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 40px;
+  color: #000000;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}

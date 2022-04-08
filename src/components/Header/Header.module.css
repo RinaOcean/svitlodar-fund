@@ -10,6 +10,13 @@
  .headerNav {
   display: flex;
   align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: "CirceRounded";
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .headerNavItem {
@@ -20,6 +27,8 @@
   color: #757575;
 
   cursor: pointer;
+
+  
 }
 
 .headerNavItem:not(:last-child) {
@@ -27,12 +36,11 @@
 }
 
 .svitloDarLogo {
-  display: flex;
-  flex-direction: column;
+  
   width: 100%;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 20px;
 }
 
@@ -49,5 +57,22 @@
   font-weight: 800;
   font-size: 16.5px;
   
+}
+
+.button{
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: 0.5s;
+}
+
+.button:hover,
+.button:focus{
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
