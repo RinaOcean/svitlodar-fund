@@ -10,11 +10,8 @@
  .headerNav {
   display: flex;
   align-items: center;
-
-  display: flex;
   flex-direction: column;
   padding: 20px;
-  font-family: "CirceRounded";
   font-size: 14px;
   font-weight: 700;
 }
@@ -27,13 +24,9 @@
   color: #757575;
 
   cursor: pointer;
-
   
 }
 
-.headerNavItem:not(:last-child) {
-  margin-right: 40px;
-}
 
 .svitloDarLogo {
   

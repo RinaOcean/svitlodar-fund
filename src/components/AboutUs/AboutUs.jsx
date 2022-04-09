@@ -1,23 +1,20 @@
 import Container from '../Container'
 import styles from './AboutUs.module.css'
-// import yellowEclps from '../../assets/yellowEllipse.svg'
-import eclipseTwo from '../../assets/ellipseTwo.svg'
+import yellowEclps from '../../assets/yellowEllipse.svg'
+import { useTranslation } from 'react-i18next';
 
 const AboutUs = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className={styles.aboutUs}>
       <Container>
-        <h1 className={styles.headding}>about us</h1>
+        <h1 className={styles.headding}>{t('about us')}</h1>
         <div className={styles.imgWrapper}>
           <p className={styles.description}>
-            Charitable Foundation "Svitlodar" was founded on october 01, 2015.
-            The Foundation has become a logical extension of the volunteer activities 
-            carried out by us in 2014-2015, aimed at assisting in the psychosomatic 
-            rehabilitation of persons injured during the anti-terrorist operation in 
-            the East of Ukraine.
+          {t('Charity Fund Svitlodar was founded on October 01, 2015. We started as volunteers helping the victims of the anti-terrorist operation (ATO) in the East of Ukraine in 2014-2015.')}
           </p>
-          {/* <img className={styles.eclipseOneImg} src={yellowEclps} alt='yellow-blue heart'/> */}
-          <img className={styles.eclipseTwo} src={eclipseTwo} alt='yellow-blue heart'/>
+          <img className={styles.eclipseOneImg} src={yellowEclps} alt='yellow-blue heart'/>
         </div>
       </Container>
     </section>
