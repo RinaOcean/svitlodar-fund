@@ -1,12 +1,15 @@
 import styles from "./How.module.css";
 import Container from "../Container";
+import { useTranslation } from 'react-i18next';
 
 const How = () => {
+  const { t } = useTranslation();
+
   return (
     <Container>
       <section className={styles.main}>
         <div>
-          <h1 className={styles.mainHeader}>how</h1>
+          <h1 className={styles.mainHeader}>{t('how we can help')}</h1>
         </div>
         <div>
           <p className={styles.descriptionMain}>

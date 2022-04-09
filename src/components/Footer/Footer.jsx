@@ -4,7 +4,7 @@ import styles from "./Footer.module.css";
 const Footer = () => {
   return (
     <Container>
-      <div className={styles.header}>
+      <div className={styles.footer}>
         <div className={styles.svitloDarLogo}>
           <div>
             <span className={styles.svitlo}>svitlo</span>

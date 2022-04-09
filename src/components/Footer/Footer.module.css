@@ -1,7 +1,7 @@
-.header {
+.footer {
   display: grid;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   justify-content: center;
   font-family: Roboto, sans-serif;
 }
@@ -12,7 +12,7 @@
   width: 100%;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -22,4 +22,17 @@
 
 .dar {
   color: #2584cb;
+}
+
+@media (min-width: 480px) {
+  .footer {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+
+  .svitloDarLogo {
+     font-size: 22px;
+  }
+  
+  
 }

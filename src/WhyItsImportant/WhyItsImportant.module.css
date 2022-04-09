@@ -1,4 +1,4 @@
-.aboutUs {
+.WhyItsImportant {
   padding-top: 80px;
   padding-bottom: 80px;
   font-family: Roboto;
@@ -11,71 +11,36 @@
   line-height: 130%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+  margin-bottom: 50px;
   color: #FFFFFF;
-}
-
-.eclipseOneImg {
-  position: relative;
-  margin: 0 auto;
-  height: 350px;
 }
 
 
 .description {
-  position: absolute;
-  top: 50%; left: 50%;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-
   font-weight: 400;
   line-height: 130%;
-  letter-spacing: 0.03em;
-  padding-left: 50px;
+  letter-spacing: 0.03em;  
   font-size: 14px;
-  width: 210px;
-  z-index: 1;
 }
 
-
-.imgWrapper {
-  position: relative;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-  height: 100%;
-  width:  100%;
-}
 
 
 @media (min-width: 480px) and (max-width: 767px) {
   .description {
     font-size: 16px;
-    width: 230px;
-    padding-left: 50px;
   }
 
-  .eclipseOneImg {
-    height: 370px;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
   .description {
     font-size: 17px;
-    width: 250px;
-    padding-left: 60px;
   }
 
-  .eclipseOneImg {
-    height: 400px;
-  }
 }
 
 @media (min-width: 1200px) {
-  .aboutUs {
+  .WhyItsImportant {
     padding-top: 120px;
     padding-bottom: 120px;
   }
@@ -86,19 +51,11 @@
 
   .description {
     font-size: 22px;
-    width: 350px;
-    padding-left: 80px;
-  }
-
-  .eclipseOneImg {
-    height: 600px;
-  }
-
-  
+  }  
 }
 
 @media (min-width: 1400px) {
-  .aboutUs {
+  .WhyItsImportant {
     padding-top: 140px;
     padding-bottom: 140px;
   }
