@@ -14,7 +14,7 @@
   position: absolute;
   font-family: Roboto;
   font-weight: 900;
-  font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 22px);
+  font-size: 24px;
   line-height: 130%;
   letter-spacing: 0.03em;
   text-transform: uppercase ;
@@ -22,47 +22,35 @@
 }
 
 
-@media (min-width: 480px) {
+@media (max-width: 479px) {
   .mainHeader {
-    margin:  0 auto;
+    max-width: 280px;
+  }
+
+  .heartImg {
+    width: 250px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .mainHeader {
+    font-size: 34px;
     max-width: 450px;
   }
 
   .heartImg {
-    width: 450px;
+    width: 350px;
   }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .mainHeader {
-    max-width: 300px;
-  }
-
-}
-
-@media (min-width: 768px) {
-  .mainHeader {
-    max-width: 600px;
-  }
-}
-
-@media (min-width: 960px) {
- .main {
-    justify-content: space-between;
+    font-size: 48px;
+    max-width: 580px;
   }
 
   .heartImg {
-    position: unset;
-    margin-left: auto;
-    width: 500px;
-    height: 100%; 
-    margin-right: -30px;
-    margin-left: auto;
-  }
-
-  .mainHeader {
-    font-size: 40px;
-    text-align: left;
+    max-width: 500px;
   }
 }
 
@@ -70,7 +58,15 @@
   .main {
     padding-top: 120px;
     padding-bottom: 120px;
-    
+  }
+
+  .heartImg {
+    width: 700px;
+  }
+
+  .mainHeader {
+    font-size: 70px;
+    width: 850px;
   }
 }
 
