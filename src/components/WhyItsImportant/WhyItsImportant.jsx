@@ -1,4 +1,4 @@
-import Container from '../components/Container'
+import Container from '../Container'
 import styles from './WhyItsImportant.module.css'
 
 import { useTranslation } from 'react-i18next';

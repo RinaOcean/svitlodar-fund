@@ -6,6 +6,7 @@
 
   font-family: Roboto, sans-serif;
  }
+ 
 
  .headerNav {
   display: flex;
@@ -17,6 +18,7 @@
 }
 
 .headerNavItem {
+  text-decoration: none;
   white-space: nowrap;
   font-size: 14px;
   font-weight: 700;
