@@ -1,0 +1,62 @@
+.WhoDoWeHelp{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-family: Roboto;
+}
+
+.headding {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 50px;
+}
+
+.list {
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  
+  font-size: 14px;
+  list-style:disc;
+}
+
+.listItem:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .list {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .list {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .WhoDoWeHelp {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .headding {
+    font-size: 30px;
+  }
+
+  .list {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .WhoDoWeHelp {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+}

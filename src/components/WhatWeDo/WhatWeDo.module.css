@@ -1,0 +1,35 @@
+.mainHeader {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-bottom: 72px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+
+
+.heartImg {
+  margin-right: -30px;
+}
+
+@media (min-width: 1200px) {
+  .main {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .main {
+    padding-top: 140px;
+    padding-bottom: 10px;
+  }
+}

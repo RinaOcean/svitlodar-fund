@@ -1,18 +1,24 @@
 .header {
   display: flex;
   align-items: center;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
   font-family: Roboto, sans-serif;
  }
+ 
 
  .headerNav {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .headerNavItem {
+  text-decoration: none;
   white-space: nowrap;
   font-size: 14px;
   font-weight: 700;
@@ -20,19 +26,15 @@
   color: #757575;
 
   cursor: pointer;
+  
 }
 
-.headerNavItem:not(:last-child) {
-  margin-right: 40px;
-}
 
 .svitloDarLogo {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -44,10 +46,37 @@
   color: #2584CB;
 }
 
-.charityFund {
-  color: #b9b9b9;
-  font-weight: 800;
-  font-size: 16.5px;
-  
+
+.button{
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: 0.5s;
 }
 
+.button:hover,
+.button:focus{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+@media (min-width: 480px) {
+  .svitloDarLogo {
+    font-size: 18px;
+  }
+
+  .header {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+
+  .button{
+    width: 40px;
+    height: 40px;
+  }
+  
+}
