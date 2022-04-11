@@ -2,7 +2,7 @@
   padding-top: 80px;
   padding-bottom: 80px;
   font-family: Roboto;
-  background-color: #2584CB;
+  background-color: #ffe639;;
 }
 
 .headding {
@@ -12,7 +12,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 50px;
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
 }
 
 
@@ -23,7 +23,7 @@
   font-size: 14px;
   padding-left: 10px;
   padding-right: 10px;
-  color: rgb(241, 241, 241);
+  
 }
 
 
@@ -38,6 +38,8 @@
 @media (min-width: 768px) and (max-width: 1200px) {
   .description {
     font-size: 17px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 
 }
@@ -50,10 +52,13 @@
 
   .headding {
     font-size: 30px;
+    margin-bottom: 70px;
   }
 
   .description {
     font-size: 22px;
+    padding-right: 120px;
+    padding-left: 120px;
   }  
 }
 

@@ -7,16 +7,19 @@ const How = () => {
 
   return (
     <Container>
-      <section className={styles.main}>
+      <section className={styles.how}>
         <div>
           <h1 className={styles.mainHeader}>{t('how we can help')}</h1>
         </div>
         <div>
           <p className={styles.descriptionMain}>
-            Для виконання цього завдання Фонд проводить заходи та збір
-            пожертвувань в Україні та за кордоном за трьома програмами:
+            На данный момент фонд работает по двум основным направлениям:
           </p>
-          <div className={styles.gridContainer}>
+          <ol className={styles.descriptionList}>
+            <li className={styles.descriptionListItem}>Гуманитарная помощь людям, находящимся в зоне боевых действий и прилегающих им территориям</li>
+            <li className={styles.descriptionListItem}>Организация комплексной психосоматической реабилитации</li>
+          </ol>
+          {/* <div className={styles.gridContainer}>
             <div className={styles.gridFirstCards}>
               <div className={styles.contentBlue}>Programm 1</div>
               <p className={styles.description}>
@@ -71,7 +74,7 @@ const How = () => {
                 із застосуванням новітніх авторських методик у цій галузі.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </Container>

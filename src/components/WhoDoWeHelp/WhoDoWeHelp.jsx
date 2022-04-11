@@ -11,8 +11,8 @@ const WhoDoWeHelp = () => {
         <h1 className={styles.headding}>{t('who do we help')}</h1>
         
         <ul className={styles.list}>
-          <li className={styles.listItem}>гражданским лицам, пострадавшим во время боевых действий в Украине;</li>
-          <li className={styles.listItem}>ветеранам АТО и членам их семей;</li>
+          <li className={styles.listItem}>гражданским лицам, страдающим во время боевых действий в Украине;</li>
+          <li className={styles.listItem}>участникам военных действий и членам их семей;</li>
           <li className={styles.listItem}>семьям погибших и пропавших без вести.</li>
         </ul>
        

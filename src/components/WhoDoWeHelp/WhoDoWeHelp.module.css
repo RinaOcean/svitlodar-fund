@@ -35,7 +35,7 @@
 
 @media (min-width: 768px) and (max-width: 1200px) {
   .list {
-    font-size: 17px;
+    font-size: 18px;
   }
 }
 
@@ -47,10 +47,13 @@
 
   .headding {
     font-size: 30px;
+    margin-bottom: 70px;
   }
 
   .list {
     font-size: 22px;
+    margin: 0 auto;
+    
   }
 }
 

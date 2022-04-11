@@ -3,6 +3,7 @@ import Contacts from "../Contacts";
 import Main from "../Main";
 import WhoDoWeHelp from "../WhoDoWeHelp/WhoDoWeHelp";
 import WhyItsImportant from "../WhyItsImportant";
+import How from "../How"
 
 const InitialView = () => (
   <>
@@ -10,6 +11,7 @@ const InitialView = () => (
    <AboutUs/>
    <WhoDoWeHelp/>
    <WhyItsImportant/>
+   <How/>
    <Contacts/>
  </>
   );

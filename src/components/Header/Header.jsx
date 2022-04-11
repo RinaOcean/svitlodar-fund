@@ -5,13 +5,10 @@ import { NavLink } from "react-router-dom";
 import Offcanvas from 'react-bootstrap/Offcanvas'
 import { Link, animateScroll as scroll } from "react-scroll"
 import { useState } from 'react';
-import DropdownButton from 'react-bootstrap/DropdownButton'
-import Dropdown from 'react-bootstrap/Dropdown'
-import { useTranslation } from 'react-i18next';
+import Form from 'react-bootstrap/Form'
 
 const Header = () => {
-  const { t } = useTranslation();
-
+  
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -28,7 +25,8 @@ const Header = () => {
   }
 
   return (
-    <Container>
+    <section className={styles.headerWrapper}>
+       <Container>
     <div className={styles.header}>
       <NavLink 
         className={styles.headerNavItem} 
@@ -43,11 +41,13 @@ const Header = () => {
        
       </div>
 
-      <DropdownButton id="dropdown-basic-button" size="sm" title={t("lang")}>
-        <Dropdown.Item href="#/action-1">en</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">рус</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">укр</Dropdown.Item>
-      </DropdownButton>
+      <Form.Select aria-label="Default select example" className={styles.langSelect} size="sm">
+       
+       <option value="1">en</option>
+       <option value="2">рус</option>
+       <option value="2">укр</option>
+  
+      </Form.Select>
 
       <button type="button" className={styles.button} onClick={handleShow}>
         <img className={styles.menu} src={menuSvg} width="30" height="30" alt="menu"/>
@@ -107,6 +107,8 @@ const Header = () => {
       
     </div>
     </Container>
+    </section>
+   
   )
 }
 
