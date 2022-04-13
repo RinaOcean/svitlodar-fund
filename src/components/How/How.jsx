@@ -16,7 +16,7 @@ const How = () => {
             На данный момент фонд работает по двум основным направлениям:
           </p>
           <ol className={styles.descriptionList}>
-            <li className={styles.descriptionListItem}>Гуманитарная помощь людям, находящимся в зоне боевых действий и прилегающих им территориям</li>
+            <li className={styles.descriptionListItem}>Гуманитарная помощь людям, находящимся в зоне боевых действий и прилегающих к ним территориям</li>
             <li className={styles.descriptionListItem}>Организация комплексной психосоматической реабилитации</li>
           </ol>
           {/* <div className={styles.gridContainer}>
