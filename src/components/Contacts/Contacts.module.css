@@ -1,6 +1,7 @@
 .contacts {
   position: relative;
-  background-image: url('../../assets/ukraine-flag-mobile.jpg');
+  /* background-image: url('../../assets/ukraine-flag-mobile.jpg'); */
+  background-image: url('../../assets/bright-colors-flag-ukraine.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -53,7 +54,7 @@
   }
 
   .contacts {
-    background-image: url('../../assets/ukraine-flag.jpg');
+    /* background-image: url('../../assets/ukraine-flag.jpg'); */
     height: 500px;
   }
 }

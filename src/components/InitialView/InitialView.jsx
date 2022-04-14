@@ -4,14 +4,18 @@ import Main from "../Main";
 import WhoDoWeHelp from "../WhoDoWeHelp/WhoDoWeHelp";
 import WhyItsImportant from "../WhyItsImportant";
 import How from "../How"
+import AboutMoney from "../AboutMoney";
+import HowToDonate from "../HowToDonate";
 
 const InitialView = () => (
   <>
    <Main/>
    <AboutUs/>
    <WhoDoWeHelp/>
-   <WhyItsImportant/>
    <How/>
+   <WhyItsImportant/>
+   <AboutMoney/>
+   <HowToDonate/>
    <Contacts/>
  </>
   );

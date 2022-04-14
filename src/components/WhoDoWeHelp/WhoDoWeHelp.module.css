@@ -20,7 +20,7 @@
   letter-spacing: 0.03em;
   
   font-size: 14px;
-  list-style:disc;
+  list-style: disc;
 }
 
 .listItem:not(:last-child) {
@@ -52,8 +52,6 @@
 
   .list {
     font-size: 22px;
-    margin: 0 auto;
-    
   }
 }
 

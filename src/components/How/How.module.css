@@ -6,6 +6,7 @@
   font-size: 14px;
   line-height: 130%;
   letter-spacing: 0.03em;
+  background-color: #ffe639;
 }
 
 .mainHeader {
@@ -20,65 +21,42 @@
   padding-bottom: 14px;
 }
 
-.description {
-  padding: 40px;
-  color: white;
-}
-
 .descriptionList {
   font-size: 14px;
-  
+  line-height: 130%;
+  list-style: disc;
 }
+
+
+.descriptionListItem ul {
+  margin-top: 10px;
+ 
+}
+
+.helpList {
+  list-style: circle;
+}
+
 .descriptionListItem:not(:first-child) {
   margin-top: 20px;
 }
 
-.descriptionYellow {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 130%;
-  letter-spacing: 0.03em;
-  padding: 40px;
-  color: rgb(0, 0, 0);
+@media (min-width: 480px) and (max-width: 767px) {
+  .descriptionMain,
+  .descriptionList {
+    font-size: 16px;
+  }
+
 }
 
-.gridContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
+@media (min-width: 768px) and (max-width: 1200px) {
+  .descriptionMain,
+  .descriptionList {
+    font-size: 18px;
+  }
+
 }
 
-.gridFirstCards {
-  background-color: #2584cb;
-  box-shadow:  3px 6px 7px 3px  rgb(122, 122, 122, 0.7);
-}
-
-.gridThirdCard {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  background-color: #ffe21a;
-  box-shadow: 3px 6px 7px 3px  rgb(122, 122, 122, 0.7);
-}
-
-.contentBlue {
-  display: grid;
-  justify-content: center;
-  color: white;
-  padding-top: 37px;
-  font-weight: 700;
-  font-size: 20px;
-  letter-spacing: 0.05em;
-}
-
-.contentYellow {
-  display: grid;
-  justify-content: center;
-  padding-top: 37px;
-  font-weight: 700;
-  font-size: 20px;
-  letter-spacing: 0.05em;
-}
 
 @media (min-width: 1200px) {
   .main {
@@ -87,7 +65,14 @@
   }
 
   .mainHeader {
+    font-size: 30px;
     margin-bottom: 70px;
+  }
+
+ 
+  .descriptionMain,
+  .descriptionList {
+    font-size: 22px;
   }
 }
 
