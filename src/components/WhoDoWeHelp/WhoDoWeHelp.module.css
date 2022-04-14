@@ -14,7 +14,8 @@
   margin-bottom: 50px;
 }
 
-.list {
+.list,
+.description {
   font-weight: 400;
   line-height: 130%;
   letter-spacing: 0.03em;
@@ -23,18 +24,24 @@
   list-style: disc;
 }
 
+.description {
+  font-weight: 700;
+}
+
 .listItem:not(:last-child) {
   margin-bottom: 20px;
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
-  .list {
+  .list,
+  .description {
     font-size: 16px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  .list {
+  .list,
+  .description {
     font-size: 18px;
   }
 }
@@ -50,7 +57,8 @@
     margin-bottom: 70px;
   }
 
-  .list {
+  .list,
+  .description {
     font-size: 22px;
   }
 }

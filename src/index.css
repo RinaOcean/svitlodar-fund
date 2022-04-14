@@ -49,13 +49,3 @@ p {
   box-sizing: inherit;
 }
 
-h1,
-h2,
-h3,
-span,
-p {
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
