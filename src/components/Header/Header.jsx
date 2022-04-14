@@ -6,8 +6,16 @@ import Offcanvas from 'react-bootstrap/Offcanvas'
 import { Link, animateScroll as scroll } from "react-scroll"
 import { useState } from 'react';
 import Form from 'react-bootstrap/Form'
+import i18next from 'i18next';
+
 
 const Header = () => {
+  const [language, setLanguage] = useState('en');
+ 
+  const handleOnChange=(e)=>{
+    setLanguage(e.target.value);
+    i18next.changeLanguage(e.target.value);
+  }
   
   const [show, setShow] = useState(false);
 
@@ -41,11 +49,11 @@ const Header = () => {
        
       </div>
 
-      <Form.Select aria-label="Default select example" className={styles.langSelect} size="sm">
+      <Form.Select aria-label="Default select example" className={styles.langSelect} onChange={e => handleOnChange(e)} size="sm">
        
-       <option value="1">en</option>
-       <option value="2">рус</option>
-       <option value="2">укр</option>
+       <option value="en">en</option>
+       <option value="ru">рус</option>
+       <option value="uk">укр</option>
   
       </Form.Select>
 

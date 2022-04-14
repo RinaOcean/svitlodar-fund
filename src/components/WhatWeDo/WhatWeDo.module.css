@@ -1,34 +1,38 @@
-.mainHeader {
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 46px;
-  line-height: 130%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  padding-bottom: 72px;
+.gallery {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
 }
 
-.description {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 130%;
-  letter-spacing: 0.03em;
+.galleryItem {
+  max-width: 400px;
 }
 
+.galleryItem img{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
-.heartImg {
-  margin-right: -30px;
+@media (min-width: 768px) {
+  .galleryItem {
+    max-width: 500px;
+  }
+  
 }
 
 @media (min-width: 1200px) {
-  .main {
+  .gallery {
     padding-top: 120px;
     padding-bottom: 120px;
   }
 }
 
 @media (min-width: 1400px) {
-  .main {
+  .gallery {
     padding-top: 140px;
     padding-bottom: 10px;
   }
