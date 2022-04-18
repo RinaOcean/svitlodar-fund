@@ -18,16 +18,30 @@
 }
 
 @media (min-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 620px;
+  }
+  
   .galleryItem {
-    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height:185px;
+    overflow: hidden;
   }
   
 }
 
 @media (min-width: 1200px) {
   .gallery {
+    grid-template-columns: repeat(4, 1fr);
     padding-top: 120px;
     padding-bottom: 120px;
+    max-width: 960px;
+  }
+  .galleryItem {
+    height:150px;
   }
 }
 
