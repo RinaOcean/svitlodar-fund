@@ -35,13 +35,13 @@
 
 @media (min-width: 1200px) {
   .gallery {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding-top: 120px;
     padding-bottom: 120px;
     max-width: 960px;
   }
   .galleryItem {
-    height:150px;
+    height:200px;
   }
 }
 
