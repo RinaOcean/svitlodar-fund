@@ -1,9 +1,13 @@
 .main {
+ 
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.wrapper{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .heartImg {
@@ -19,6 +23,30 @@
   letter-spacing: 0.03em;
   text-transform: uppercase ;
   text-align: center;
+}
+
+.main button {
+  margin-top: 50px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wantHelpButton {
+
+  background-color:#fbff06;
+}
+
+.needHelpButton {
+  
+  background-color:#2584CB;
 }
 
 

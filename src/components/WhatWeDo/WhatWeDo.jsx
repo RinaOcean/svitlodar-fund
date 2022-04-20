@@ -25,7 +25,10 @@ import img21 from '../../assets/photo/little_kids.jpg';
 import img22 from '../../assets/photo/little_kids_02.jpg';
 import img23 from '../../assets/photo/ukrainian_girls.jpg';
 
+
+
 const WhatWeDo = () => {
+
   return (
     <Container>
       <section id='whatwedo' className={styles.gallery}>
