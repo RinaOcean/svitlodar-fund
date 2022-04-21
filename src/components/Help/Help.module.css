@@ -1,7 +1,7 @@
 .help {
   padding-top: 80px;
   padding-bottom: 80px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .headding {
@@ -15,7 +15,7 @@
 }
 
 .contactsWrapper {
-  /* margin: 0 auto; */
+  margin: 0 auto;
   font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
@@ -43,7 +43,6 @@
   .help  {
     padding-top: 120px;
     padding-bottom: 120px;
-    height: 933px;
   }
 
   .headding {

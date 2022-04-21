@@ -7,9 +7,11 @@ import { Link, animateScroll as scroll } from "react-scroll"
 import { useState } from 'react';
 import Form from 'react-bootstrap/Form'
 import i18next from 'i18next';
+import { useTranslation } from 'react-i18next';
 
 
 const Header = () => {
+  const { t } = useTranslation();
   const [language, setLanguage] = useState('en');
  
   const handleOnChange=(e)=>{
@@ -71,7 +73,15 @@ const Header = () => {
             className={styles.headerNavItem} 
             onClick={handleClose}
             style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
-            to='/aboutus'>about us
+            to='/'>{t("main")}
+          </NavLink>
+   
+
+          <NavLink 
+            className={styles.headerNavItem} 
+            onClick={handleClose}
+            style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
+            to='/aboutus'>{t("about us")}
             
           </NavLink>
 
@@ -79,21 +89,21 @@ const Header = () => {
             className={styles.headerNavItem} 
             onClick={handleClose}
             style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
-            to='/whatwedo'>what we do
+            to='/whatwedo'>{t("what we do")}
           </NavLink>
 
           <NavLink 
             className={styles.headerNavItem} 
             onClick={handleClose}
             style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
-            to='/contacts'>contacts
+            to='/contacts'>{t("contacts")}
           </NavLink>
 
           <NavLink 
             className={styles.headerNavItem} 
             onClick={handleClose}
             style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
-            to='/certificates'>certificates
+            to='/certificates'>{t("certificates")}
           </NavLink>
 
           {/* <Link className={styles.headerNavItem}  activeClass={styles.headerNavItem}

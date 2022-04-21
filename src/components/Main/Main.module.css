@@ -49,6 +49,16 @@
   background-color:#2584CB;
 }
 
+.wantHelpButton:hover,
+.wantHelpButton:focus,
+.needHelpButton:hover,
+.needHelpButton:focus {
+ 
+  font-weight: 700;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24),0 5px 8px 0 rgba(0,0,0,0.19);
+  
+}
+
 
 @media (max-width: 479px) {
   .mainHeader {

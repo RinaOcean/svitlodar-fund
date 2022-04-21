@@ -17,28 +17,28 @@ const Certificates = () => {
   const images = [
     {
       src:img1,
-      desc: 'Svitlodar Fund documents',
-      sub: 'Gift Habeshaw'
+      // desc: 'Svitlodar Fund documents',
+      // sub: 'Gift Habeshaw'
     },
     {
       src: img2,
-      desc: 'Svitlodar Fund documents',
-      sub: 'Dmitriy Frantsev'
+      // desc: 'Svitlodar Fund documents',
+      // sub: 'Dmitriy Frantsev'
     },
     {
       src: img3,
-      desc: 'Svitlodar Fund documents',
-      sub: 'Dmitriy Frantsev'
+      // desc: 'Svitlodar Fund documents',
+      // sub: 'Dmitriy Frantsev'
     },
     {
       src: img4,
-      desc: 'Svitlodar Fund documents',
-      sub: 'Dmitriy Frantsev'
+      // desc: 'Svitlodar Fund documents',
+      // sub: 'Dmitriy Frantsev'
     },
     {
       src: img5,
-      desc: 'Svitlodar Fund documents',
-      sub: 'Dmitriy Frantsev'
+      // desc: 'Svitlodar Fund documents',
+      // sub: 'Dmitriy Frantsev'
     }
   ]
   const settings = {

@@ -10,8 +10,12 @@ const Help = () => {
       <Container>
         {/* <h1 className={styles.headding}>{t('help')}</h1> */}
         <div  className={styles.contactsWrapper}>
-          <a href="tel:+050 583 06 40">+050 583 06 40</a> <br/>
           <span>Наталья</span> <br/>
+          <a href="tel:+38 050 583 06 40">+38 050 583 06 40</a> <br/>
+          <a href="viber://chat?number=+380505830640">Написать в Вайбер</a><br/>
+          <a href="whatsapp://send?phone=+380505830640">WhatsApp</a><br/>
+          <a href="tg://resolve?domain=+380505830640">Telegram</a>
+          {/* <a href="telegram://chat?number=+380505830640">Написать в Telegram</a> */}
           {/* <a href="email:svitlodar2015@gmail.com">svitlodar2015@gmail.com</a> */}
         </div>
       </Container>

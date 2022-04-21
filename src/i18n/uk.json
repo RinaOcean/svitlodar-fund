@@ -1,14 +1,17 @@
 {
   "Charity fund Svitlodar":"Благодійний фонд Світлодар",
   "about us": "хто ми",
+  "main":"головна",
   "Charity Fund Svitlodar was founded on October 1, 2015. We started as volunteers helping the victims of the anti-terrorist operation (ATO) in the East of Ukraine in 2014.":"Благодійна організація «Благодійний фонд «Світлодар». Починали як волонтери – допомагали постраждалим під час антитерористичної операції (АТО) на Сході України у 2014-2015 роках. Фонд було засновано 01 жовтня 2015 року.",
   "how we can help":"як ми допомогаємо",
   "whom do we help":"кому ми допомагаємо",
   "At the moment we are helping the residents of Kharkiv only":"Наразі ми допомагаємо тільки жителям Харкова",
   "About money":"Про гроші",
+  
   "contacts":"контакти",
   "why it is important":"чому це важливо",
   "Details":"Подробиці",
+  "certificates":"сертифікати",
   "How to Donate":"Як допомогти",
   "More than 10 million Ukrainians have left their homes due to the Russian invasion, and this figure is growing every day. Approximately 6.5 million of them are internally displaced persons, and about 13.5% are forced to flee a second time (for the first time due to hostilities in the Donbas in 2013-2014). Today, the war has touched every Ukrainian and everyone has post-traumatic stress disorders in one way or another, and many of them need serious rehabilitation.":"Через російське вторгнення свої будинки залишили понад 10 мільйонів українців, і ця цифра щодня зростає. Приблизно 6,5 мільйонів із них — внутрішньо переміщені особи, причому близько 13,5% змушені втекти вдруге (вперше – через бойові дії на Донбасі у 2013-2014 рр.). Сьогодні війна торкнулася кожного українця і кожен так чи інакше має посттравматичні, стресові розлади і багато хто з них потребує серйозної реабілітації.",
   "civilians suffering during the fighting in Ukraine;":"цивільним особам, які страждають під час бойових дій в Україні;",
@@ -31,7 +34,9 @@
   "Responsibility":"Відповідальність",
   "We work for the benefit of Ukrainian medicine. We do everything in our power to achieve our goals and objectives.":"Ми працюємо на благо медицини України. Ми робимо все, що від нас залежить для досягнення поставлених цілей і завдань.",
   "Openness":"Відкритість",
-  "We are open to cooperation for the benefit of our medical institutions. We value and respect all our partners and strive to make the interaction as comfortable and productive as possible.":"Ми відкриті до співпраці на користь наших медичних закладів. Ми цінуємо та поважаємо всіх наших партнерів та прагнемо зробити взаємодію максимально комфортною та продуктивною."
-
+  "We are open to cooperation for the benefit of our medical institutions. We value and respect all our partners and strive to make the interaction as comfortable and productive as possible.":"Ми відкриті до співпраці на користь наших медичних закладів. Ми цінуємо та поважаємо всіх наших партнерів та прагнемо зробити взаємодію максимально комфортною та продуктивною.",
+  "Sorry, we are doing some work on this page":"Вибачте, на цій сторінці проводяться технічні роботи",
+  "this page is under construction":"ця сторінка на реконструкції"
+  
 }
 
