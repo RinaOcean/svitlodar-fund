@@ -89,6 +89,13 @@ const Header = () => {
             to='/contacts'>contacts
           </NavLink>
 
+          <NavLink 
+            className={styles.headerNavItem} 
+            onClick={handleClose}
+            style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
+            to='/certificates'>certificates
+          </NavLink>
+
           {/* <Link className={styles.headerNavItem}  activeClass={styles.headerNavItem}
           to="about"
           spy={true}

@@ -13,6 +13,11 @@
   transition: 0.5s
 }
 
+.scrollUpBtn img {
+  height: 100%;
+}
+
+
 .scrollUpBtn:hover,
 .scrollUpBtn:focus {
   transform: scale(1.1);

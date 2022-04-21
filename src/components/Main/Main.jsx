@@ -2,9 +2,19 @@ import styles from './Main.module.css'
 import ybHeart from '../../assets/yellowBlueHeart.svg'
 import Container from '../Container'
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router';
 
 const Main = () => {
   const { t } = useTranslation();
+  
+  let navigate = useNavigate()
+  function onClickDonateHandler() {
+   navigate("/donate")
+  }
+  
+  function onClickHelpHandler() {
+   navigate("/help")
+  }
 
   return (
     <Container>
@@ -14,8 +24,8 @@ const Main = () => {
         <img className={styles.heartImg} src={ybHeart} alt='yellow-blue heart'/>
         </div>
         <div className={styles.btnWrapper}>
-          <button type="button" className={styles.wantHelpButton}>I want help</button>
-          <button type="button" className={styles.needHelpButton}>I need help</button>
+          <button type="button" className={styles.wantHelpButton} onClick={onClickDonateHandler}>I want help</button>
+          <button type="button" className={styles.needHelpButton} onClick={onClickHelpHandler}>I need help</button>
         </div>
         
       </section>

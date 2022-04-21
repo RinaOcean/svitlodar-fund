@@ -5,7 +5,8 @@ import WhoDoWeHelp from "../WhoDoWeHelp/WhoDoWeHelp";
 import WhyItsImportant from "../WhyItsImportant";
 import How from "../How"
 import AboutMoney from "../AboutMoney";
-import HowToDonate from "../HowToDonate";
+import OurValues from "../OurValus/OurValues";
+
 
 const InitialView = () => (
   <>
@@ -15,8 +16,7 @@ const InitialView = () => (
    <How/>
    <WhyItsImportant/>
    <AboutMoney/>
-   <HowToDonate/>
-   <Contacts/>
+   <OurValues/>
  </>
   );
   

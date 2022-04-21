@@ -1,10 +1,6 @@
-.contacts {
-  position: relative;
-  /* background-image: url('../../assets/ukraine-flag-mobile.jpg'); */
-  background-image: url('../../assets/bright-colors-flag-ukraine.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.help {
+  padding-top: 80px;
+  padding-bottom: 80px;
   height: 100vh;
 }
 
@@ -19,20 +15,12 @@
 }
 
 .contactsWrapper {
-  position: absolute;
-  top: 50%; left: 50%;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
- 
   /* margin: 0 auto; */
   font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;
   letter-spacing: 0.03em;
-  padding: 40px;
-  background-color: rgba(255, 255, 255, 0.2);
   
 }
 
@@ -41,10 +29,6 @@
   .contactsWrapper {
     font-size: 18px;
   }
-
-  /* .contacts {
-    height: 400px;
-  } */
 }
 
 @media (min-width: 768px) {
@@ -53,17 +37,13 @@
     
   }
 
-   /* .contacts {
-  
-    height: 500px;
-  }  */
 }
 
 @media (min-width: 1200px) {
-  .contacts {
+  .help  {
     padding-top: 120px;
     padding-bottom: 120px;
-    /* height: 933px; */
+    height: 933px;
   }
 
   .headding {
@@ -77,7 +57,7 @@
 }
 
 @media (min-width: 1400px) {
-  .contacts {
+  .help  {
     padding-top: 140px;
     padding-bottom: 140px;
   }

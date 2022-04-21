@@ -11,7 +11,7 @@ const HowToDonate = () => {
       <Container>
         <h1 className={styles.headding}>{t('How to Donate')}</h1>
         
-        <p className={styles.description}>
+        <div className={styles.description}>
           <p>
             <span>{t('Ukraine, 61093, Kharkiv, str.Skorokhoda, 4')}</span><br/>
             <span>+380968785248</span><br/>
@@ -34,7 +34,7 @@ const HowToDonate = () => {
           <span>IBAN: UA433515330000020630052328932</span><br/>
           <span>UAH</span>
           </p>
-        </p>
+        </div>
         
       </Container>
     </section>

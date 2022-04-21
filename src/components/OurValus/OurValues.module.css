@@ -1,0 +1,81 @@
+.OurValues {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url('../../assets/bright-colors-flag-ukraine.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+
+.mainHeader {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.values{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.descriptionItem {
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  padding-bottom: 14px;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .descriptionItem {
+    font-size: 16px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .descriptionItem {
+    font-size: 18px;
+  }
+
+  .values{
+    font-size: 20px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .OurValues {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .mainHeader {
+    font-size: 30px;
+    margin-bottom: 70px;
+  }
+
+  .values{
+    font-size: 24px;
+  }
+ 
+  .descriptionItem {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .OurValues {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+}

@@ -1,3 +1,4 @@
+import Lightroom from 'react-lightbox-gallery';
 import styles from "./WhatWeDo.module.css";
 import Container from "../Container";
 
@@ -29,10 +30,137 @@ import img23 from '../../assets/photo/ukrainian_girls.jpg';
 
 const WhatWeDo = () => {
 
+  const images = [
+    {
+      src:img1,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Gift Habeshaw'
+    },
+    {
+      src: img2,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src: img3,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src: img4,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src: img5,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src:img6,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Gift Habeshaw'
+    },
+    {
+      src: img7,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src: img8,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src: img9,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src: img10,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src:img11,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Gift Habeshaw'
+    },
+    {
+      src: img12,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src: img13,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src: img14,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src: img15,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src:img16,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Gift Habeshaw'
+    },
+    {
+      src: img17,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src: img18,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src: img19,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src: img20,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    }
+    ,
+    {
+      src: img21,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src: img22,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    },
+    {
+      src: img23,
+      desc: 'Svitlodar Fund documents',
+      sub: 'Dmitriy Frantsev'
+    }
+  ]
+  const settings = {
+    columnCount:{
+      default:5,
+      mobile:3,
+      tab:4
+    },
+    mode: 'dark'
+  }
+
   return (
     <Container>
       <section id='whatwedo' className={styles.gallery}>
-        <div className={styles.galleryItem}>
+        {/* <div className={styles.galleryItem}>
           <img src={img1} alt='humanitarian help'/>
         </div>
         <div className={styles.galleryItem}>
@@ -100,7 +228,10 @@ const WhatWeDo = () => {
         </div>
         <div className={styles.galleryItem}>
           <img src={img23} alt='humanitarian help'/>
-        </div>
+        </div> */}
+
+      <Lightroom images={images} settings={settings} />
+
 
       </section>
     </Container>
