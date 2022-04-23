@@ -9,7 +9,7 @@ const WhoDoWeHelp = () => {
     <section id="whodowehelp" className={styles.WhoDoWeHelp}>
       <Container>
         <h1 className={styles.headding}>{t('whom do we help')}</h1>
-        <p className={styles.description}>{t('At the moment we are helping the residents of Kharkiv only')}</p>
+        <p className={styles.description}>{t('Now we are helping the residents of Kharkiv and region')}</p>
         <ul className={styles.list}>
           <li className={styles.listItem}>{t('civilians suffering during the fighting in Ukraine;')}</li>
           <li className={styles.listItem}>{t('participants in hostilities and members of their families;')}</li>

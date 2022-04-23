@@ -30,9 +30,6 @@ const Header = () => {
     document.body.style.position = '';
   }
   
-  const scrollToTop = () => {
-    window.scrollTo(0, 0)
-  }
 
   return (
     <section className={styles.headerWrapper}>
@@ -81,7 +78,7 @@ const Header = () => {
             className={styles.headerNavItem} 
             onClick={handleClose}
             style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
-            to='/aboutus'>{t("about us")}
+            to='/'>{t("about us")}
             
           </NavLink>
 
@@ -91,13 +88,27 @@ const Header = () => {
             style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
             to='/whatwedo'>{t("what we do")}
           </NavLink>
-
+{/* 
           <NavLink 
             className={styles.headerNavItem} 
             onClick={handleClose}
             style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
             to='/contacts'>{t("contacts")}
+          </NavLink> */}
+
+          <NavLink 
+            className={styles.headerNavItem} 
+            onClick={handleClose}
+            style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
+            to='/donate'>{t("donate")}
           </NavLink>
+
+          <NavLink 
+            className={styles.headerNavItem} 
+            onClick={handleClose}
+            style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
+            to='/help'>{t("get help")}
+          </NavLink> 
 
           <NavLink 
             className={styles.headerNavItem} 
@@ -106,30 +117,7 @@ const Header = () => {
             to='/certificates'>{t("certificates")}
           </NavLink>
 
-          {/* <Link className={styles.headerNavItem}  activeClass={styles.headerNavItem}
-          to="about"
-          spy={true}
-          smooth={true}
-          offset={60}
-          duration={500}>about us
-        </Link> */}
-
-        {/* <Link className={styles.headerNavItem}  activeClass={styles.headerNavItem}
-          to="whatwedo"
-          spy={true}
-          smooth={true}
-          offset={60}
-          duration={500}>what we do
-        </Link> */}
-
-        {/* <Link className={styles.headerNavItem}  activeClass={styles.headerNavItem}
-          to="contacts"
-          spy={true}
-          smooth={true}
-          offset={60}
-          duration={500}>contacts
-        </Link> */}
-                          
+                                 
           </nav>
         </Offcanvas.Body>
       </Offcanvas>

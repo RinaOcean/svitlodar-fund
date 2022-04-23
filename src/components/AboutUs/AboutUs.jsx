@@ -9,7 +9,7 @@ const AboutUs = () => {
 
   let navigate = useNavigate()
   function onClickHandler() {
-   navigate("/aboutus")
+   navigate("/")
   }
 
   return (

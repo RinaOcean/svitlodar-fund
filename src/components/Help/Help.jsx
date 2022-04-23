@@ -4,19 +4,18 @@ import { useTranslation } from 'react-i18next';
 
 const Help = () => {
   const { t } = useTranslation();
-
+  
   return (
     <section id="help" className={styles.help}>
       <Container>
-        {/* <h1 className={styles.headding}>{t('help')}</h1> */}
         <div  className={styles.contactsWrapper}>
-          <span>Наталья</span> <br/>
-          <a href="tel:+38 050 583 06 40">+38 050 583 06 40</a> <br/>
-          <a href="viber://chat?number=+380505830640">Написать в Вайбер</a><br/>
-          <a href="whatsapp://send?phone=+380505830640">WhatsApp</a><br/>
-          <a href="tg://resolve?domain=+380505830640">Telegram</a>
-          {/* <a href="telegram://chat?number=+380505830640">Написать в Telegram</a> */}
-          {/* <a href="email:svitlodar2015@gmail.com">svitlodar2015@gmail.com</a> */}
+          <h2 className={styles.headding}>{t('contacts')}</h2>
+          
+          <a href="tel:+38 050 583 06 40">+38 050 583 06 40</a><span> ({t('Natalya')})</span> <br/> 
+          <a className={styles.social} href="viber://chat?number=+380505830640">Viber</a>
+          <a className={styles.social} href="email:svitlodar.help@gmail.com">svitlodar.help@gmail.com</a>
+          <a className={styles.applicationButton} href="https://docs.google.com/forms/d/e/1FAIpQLSe9--9xMMTgFuTKyErmiKFUu5PV9L-xcjuqCigL9XUdvQ2m3A/viewform">{t('apply for help')}</a>
+                   
         </div>
       </Container>
     </section>
