@@ -1,5 +1,5 @@
 .HowToDonate {
-  padding-top: 80px;
+  padding-top: 141px;
   padding-bottom: 80px;
   font-family: Roboto;
   background-image: url('../../assets/dRKBanner.jpg');
@@ -87,8 +87,8 @@
 }
 
 @media (min-width: 1200px) {
-  .WhyItsImportant {
-    padding-top: 120px;
+  .HowToDonate {
+    padding-top: 190px;
     padding-bottom: 120px;
   }
 
@@ -100,7 +100,7 @@
   .donateWrapper {
     display: flex;
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0;
   }
 
@@ -116,8 +116,8 @@
 }
 
 @media (min-width: 1400px) {
-  .WhyItsImportant {
-    padding-top: 140px;
+  .HowToDonate {
+    padding-top: 210px;
     padding-bottom: 140px;
   }
 }

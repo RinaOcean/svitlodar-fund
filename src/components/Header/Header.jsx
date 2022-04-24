@@ -3,7 +3,6 @@ import styles from './Header.module.css'
 import menuSvg from '../../assets/menu.svg';
 import { NavLink } from "react-router-dom";
 import Offcanvas from 'react-bootstrap/Offcanvas'
-import { Link, animateScroll as scroll } from "react-scroll"
 import { useState } from 'react';
 import Form from 'react-bootstrap/Form'
 import i18next from 'i18next';
@@ -74,13 +73,13 @@ const Header = () => {
           </NavLink>
    
 
-          <NavLink 
+          {/* <NavLink 
             className={styles.headerNavItem} 
             onClick={handleClose}
             style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
             to='/'>{t("about us")}
             
-          </NavLink>
+          </NavLink> */}
 
           <NavLink 
             className={styles.headerNavItem} 
