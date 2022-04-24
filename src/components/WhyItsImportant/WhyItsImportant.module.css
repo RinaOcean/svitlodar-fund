@@ -22,11 +22,12 @@
   letter-spacing: 0.03em;  
   font-size: 14px;
   padding-left: 10px;
-  padding-right: 10px;
-  
+  padding-right: 10px;  
 }
 
-
+.descriptionItem {
+  display: block;
+}
 
 @media (min-width: 480px) and (max-width: 767px) {
   .description {

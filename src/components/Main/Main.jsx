@@ -24,7 +24,7 @@ const Main = () => {
         <img className={styles.heartImg} src={ybHeart} alt='yellow-blue heart'/>
         </div>
         <div className={styles.btnWrapper}>
-          <button type="button" className={styles.wantHelpButton} onClick={onClickDonateHandler}>{t('I want help')}</button>
+          <button type="button" className={styles.wantHelpButton} onClick={onClickDonateHandler}>{t('Donate')}</button>
           <button type="button" className={styles.needHelpButton} onClick={onClickHelpHandler}>{t('I need help')}</button>
         </div>
         

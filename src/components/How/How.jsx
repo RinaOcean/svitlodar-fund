@@ -14,11 +14,11 @@ const How = () => {
         <div className={styles.description}>
             <ul className={styles.descriptionList}>
              <li className={styles.descriptionListItem}> 
-               {t('We provide humanitarian assistance in the war zone and adjacent territories:')}
+               {t('We are providing humanitarian aid in the war zone and the adjacent territories:')}
                <ul className={styles.helpList}>
-                 <li className={styles.helpListItem}>{t('we deliver food, medicines, personal hygiene products to people;')}</li>
-                 <li className={styles.helpListItem}>{t('we take people to safe places;')}</li>
-                 <li className={styles.helpListItem}>{t('we get medicines for hospitals and hospitals.')}</li>
+                 <li className={styles.helpListItem}>{t('food, medication and personal hygiene items being delivered to people in need;')}</li>
+                 <li className={styles.helpListItem}>{t('helping to relocate and evacuate people and their pets to safer areas;')}</li>
+                 <li className={styles.helpListItem}>{t('arranging distribution of medication to local hospitals.')}</li>
                 </ul>
              </li>
             <li className={styles.descriptionListItem}>{t('We are engaged in psychosomatic and social rehabilitation of victims. This was the main focus of the Foundation until February 2022, so we have proven proprietary methods.')}</li>

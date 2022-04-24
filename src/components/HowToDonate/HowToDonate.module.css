@@ -10,14 +10,21 @@
 }
 
 .donateWrapper {
-  font-weight: 400;
-  line-height: 130%;
-  letter-spacing: 0.03em;  
-  font-size: 14px;
+  margin:  0 auto;
+}
 
-  background-color: rgba(228, 228, 228, 0.6);
+.contactsWrapper{
+  margin: 0 auto;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  background-color: rgba(228, 228, 228, 0.7);
   border-radius: 5px;
-  padding: 20px 10px;
+  padding: 40px 30px;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24),0 5px 8px 0 rgba(0,0,0,0.19);
+  margin-bottom: 50px; 
 }
 
 .headding {
@@ -29,35 +36,37 @@
   margin-bottom: 20px;
 }
 
-.contactsWrapper{
-  margin-bottom: 50px; 
+.socialWrapper {
+  display: flex;
+  align-items: center;
 }
 
-/* .social {
-  display: block;
+.socialWrapper:not(:first-of-type) {
+  margin-top: 20px;
+}
 
-} */
-
+.socialIcon {
+  margin-right: 10px;
+}
 
 .requisites{
-  padding-left: 10px;
-  padding-right: 10px;
   margin: 0 auto;
-  border: 2px solid #2584CB;
+  background-color: rgba(228, 228, 228, 0.7);
   border-radius: 5px;
-  padding: 5px;
-  max-width: 320px;
+  padding: 40px 10px;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24),0 5px 8px 0 rgba(0,0,0,0.19);
+ 
 }
 
 
 @media (min-width: 480px) and (max-width: 767px) {
   .requisites {
-    max-width: 410px;
-    padding: 20px;
+    font-size: 18px;
+    padding: 40px 30px;
   }
 
-  .donateWrapper {       
-    font-size: 16px;
+  .contactsWrapper {
+    font-size: 18px;
     padding: 40px 30px;
   }
 
@@ -65,13 +74,14 @@
 
 @media (min-width: 768px) and (max-width: 1200px) {
   .requisites {    
-    max-width:500px;
-    padding: 40px;
+    font-size: 20px;
+    padding: 40px 50px;
   }
 
-  .donateWrapper {   
-    font-size: 18px;
+  .contactsWrapper {
+    font-size: 20px;
     padding: 40px 50px;
+    
   }
 
 }
@@ -87,18 +97,21 @@
     margin-bottom: 70px;
   }
 
+  .donateWrapper {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: 0;
+  }
+
   .requisites {    
-    max-width: 550px;
-    padding: 40px;    
+    font-size: 25px;
+    padding: 40px 30px;  
   }  
 
-  .donateWrapper { 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-    font-size: 22px;
-    padding: 60px 50px;
+  .contactsWrapper {
+    font-size: 25px;
+    padding: 40px 30px;
   }
 }
 

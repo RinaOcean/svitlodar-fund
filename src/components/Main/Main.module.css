@@ -19,12 +19,13 @@
   font-weight: 900;
   font-size: 24px;
   line-height: 130%;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   text-transform: uppercase ;
   text-align: center;
 }
 
 .main button {
+  min-width: 110px;
   margin-top: 40px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -102,14 +103,15 @@
   }
 
   .mainHeader {
-    font-size: 70px;
-    width: 850px;
+    font-size: 65px;
+    width: 760px;
   }
 
   
   .main button {
     margin-top: 50px;
     padding: 15px 25px;
+    min-width: 216px;
  }
 }
 

@@ -12,7 +12,10 @@ const WhyItsImportant = () => {
         <h1 className={styles.headding}>{t('why it is important')}</h1>
         
         <p className={styles.description}>
-        {t('More than 10 million Ukrainians have left their homes due to the Russian invasion, and this figure is growing every day. Approximately 6.5 million of them are internally displaced persons, and about 13.5% are forced to flee a second time (for the first time due to hostilities in the Donbas in 2013-2014). Today, the war has touched every Ukrainian and everyone has post-traumatic stress disorders in one way or another, and many of them need serious rehabilitation.')}
+          <span className={styles.descriptionItem}>{t('This war has touched every Ukrainian family and that is why our mission is so important.')}</span>
+          <span className={styles.descriptionItem}>{t(`Over ten million people have fled their homes in Ukraine to other parts of the country or across the border since the Russia's invasion started, and this figure is growing every day.`)}</span>
+          <span className={styles.descriptionItem}>{t('Some refugees were forced to leave their homes for the second time since the Donbas conflict in 2013-2014.')}</span>
+          <span className={styles.descriptionItem}>{t('Even helping a few people a day would make a huge difference for them and their families.')}</span>
         </p>
         
       </Container>

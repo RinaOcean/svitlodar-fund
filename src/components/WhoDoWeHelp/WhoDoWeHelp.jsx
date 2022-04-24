@@ -8,12 +8,12 @@ const WhoDoWeHelp = () => {
   return (
     <section id="whodowehelp" className={styles.WhoDoWeHelp}>
       <Container>
-        <h1 className={styles.headding}>{t('whom do we help')}</h1>
-        <p className={styles.description}>{t('Now we are helping the residents of Kharkiv and region')}</p>
+        <h1 className={styles.headding}>{t('Our mission')}</h1>
+        <p className={styles.description}>{t('We help local residents of city of Kharkiv and Kharkiv region')}</p>
         <ul className={styles.list}>
-          <li className={styles.listItem}>{t('civilians suffering during the fighting in Ukraine;')}</li>
-          <li className={styles.listItem}>{t('participants in hostilities and members of their families;')}</li>
-          <li className={styles.listItem}>{t('families of the dead and missing.')}</li>
+          <li className={styles.listItem}>{t('civilians in need during the military hostilities in the area;')}</li>
+          <li className={styles.listItem}>{t('active military service people and members of their families;')}</li>
+          <li className={styles.listItem}>{t('families of murder victims and missing persons.')}</li>
         </ul>
        
       </Container>
