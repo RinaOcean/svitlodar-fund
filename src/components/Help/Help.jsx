@@ -5,7 +5,6 @@ import { useTranslation } from 'react-i18next';
 import mail from '../../assets/mail_icon.svg';
 import tel from '../../assets/tel_icon.svg';
 import viber from '../../assets/viber_icon.svg';
-// import fb from '../../assets/fb_icon.svg';
 
 const Help = () => {
   const { t } = useTranslation();
@@ -22,13 +21,13 @@ const Help = () => {
           </div>
           
           <div className={styles.socialWrapper}>
-            <img className={styles.socialIcon} src={viber} width="30" height="30" alt="telephone"/>
+            <img className={styles.socialIcon} src={viber} width="30" height="30" alt="viber"/>
             <a className={styles.social} href="viber://chat?number=+380505830640">Viber</a>
           </div>
 
             
           <div className={styles.socialWrapper}>
-            <img className={styles.socialIcon} src={mail} width="30" height="30" alt="telephone"/>
+            <img className={styles.socialIcon} src={mail} width="30" height="30" alt="email"/>
             <a className={styles.social} href="email:svitlodar.help@gmail.com">svitlodar.help@gmail.com</a>
           </div>
           

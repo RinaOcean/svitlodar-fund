@@ -87,13 +87,13 @@ const Header = () => {
             style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
             to='/whatwedo'>{t("what we do")}
           </NavLink>
-{/* 
+
           <NavLink 
             className={styles.headerNavItem} 
             onClick={handleClose}
             style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
             to='/contacts'>{t("contacts")}
-          </NavLink> */}
+          </NavLink>
 
           <NavLink 
             className={styles.headerNavItem} 

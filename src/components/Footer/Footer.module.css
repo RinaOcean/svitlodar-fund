@@ -24,6 +24,16 @@
   color: #2584cb;
 }
 
+.fbLink {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.fbLink:hover,
+.fbLink:focus{
+  fill: #2584cb;;
+}
+
 @media (min-width: 480px) {
   .footer {
     padding-top: 21px;
