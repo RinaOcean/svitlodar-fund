@@ -28,7 +28,7 @@
   letter-spacing: 0.03em;
   background-color: rgba(228, 228, 228, 0.6);
   border-radius: 5px;
-  padding: 40px 30px;
+  padding: 40px 15px;
   box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24),0 5px 8px 0 rgba(0,0,0,0.19);
 }
 
@@ -46,7 +46,8 @@
 }
 
 .socialIcon {
-  margin-right: 10px;
+  margin-right: 5px;
+  width: 25px;
 }
 
 .text {
@@ -61,7 +62,7 @@
 .applicationButton {
   
   display: block;
-  display: none;
+  /* display: none; */
   text-decoration: none;
   padding: 10px 10px;
   text-align: center;
@@ -100,6 +101,12 @@
   .text {    
     font-size: 20px;       
   }
+
+  
+.socialIcon {
+  margin-right: 10px;
+  width: 30px;
+}
 
 }
 

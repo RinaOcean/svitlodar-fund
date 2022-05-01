@@ -17,12 +17,13 @@ const Help = () => {
           
           <div className={styles.socialWrapper}>
             <img className={styles.socialIcon} src={tel} width="30" height="30" alt="telephone"/>
-            <a href="tel:+38 050 583 06 40">+38 050 583 06 40</a><span> ({t('Natalya')})</span> <br/> 
+            <a href="tel:+38 050 583 06 40">+38 050 583 06 40</a><span> ({t('Natalya')})</span> 
           </div>
           
           <div className={styles.socialWrapper}>
             <img className={styles.socialIcon} src={viber} width="30" height="30" alt="viber"/>
-            <a className={styles.social} href="viber://chat?number=+380505830640">Viber</a>
+            <span>Viber: </span>
+            <a className={styles.social} href="viber://chat?number=380505830640"> +38 050 583 06 40</a>
           </div>
 
             
