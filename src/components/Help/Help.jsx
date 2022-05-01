@@ -29,7 +29,7 @@ const Help = () => {
             
           <div className={styles.socialWrapper}>
             <img className={styles.socialIcon} src={mail} width="30" height="30" alt="email"/>
-            <a className={styles.social} href="email:svitlodar.help@gmail.com">svitlodar.help@gmail.com</a>
+            <a className={styles.social} href="mailto:svitlodar.help@gmail.com">svitlodar.help@gmail.com</a>
           </div>
           
           <a className={styles.applicationButton} href="https://docs.google.com/forms/d/e/1FAIpQLSe9--9xMMTgFuTKyErmiKFUu5PV9L-xcjuqCigL9XUdvQ2m3A/viewform">{t('apply for help')}</a>

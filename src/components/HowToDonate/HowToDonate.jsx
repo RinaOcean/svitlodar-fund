@@ -28,7 +28,7 @@ const HowToDonate = () => {
 
             <div className={styles.socialWrapper}>
               <img className={styles.socialIcon} src={mail} width="30" height="30" alt="telephone"/>
-              <a className={styles.social} href="email:svitlodar_donate@gmail.com">svitlodar_donate@gmail.com</a>
+              <a className={styles.social} href="mailto:svitlodar_donate@gmail.com">svitlodar_donate@gmail.com</a>
             </div>
                           
           </div> 
