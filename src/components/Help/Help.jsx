@@ -2,13 +2,17 @@ import Container from "../Container";
 import styles from "./Help.module.css";
 import { useTranslation } from 'react-i18next';
 
+import Modal from 'react-bootstrap/Modal'
 import mail from '../../assets/mail_icon.svg';
 import tel from '../../assets/tel_icon.svg';
 import viber from '../../assets/viber_icon.svg';
+import { useState } from "react";
 
 const Help = () => {
   const { t } = useTranslation();
   
+  const [lgShow, setLgShow] = useState(false);
+
   return (
     <section id="help" className={styles.help}>
       <Container>
@@ -32,9 +36,31 @@ const Help = () => {
             <a className={styles.social} href="mailto:svitlodar.help@gmail.com">svitlodar.help@gmail.com</a>
           </div>
           
-          <a className={styles.applicationButton} href="https://docs.google.com/forms/d/e/1FAIpQLSe9--9xMMTgFuTKyErmiKFUu5PV9L-xcjuqCigL9XUdvQ2m3A/viewform">{t('apply for help')}</a>
+          <button className={styles.applicationButton} onClick={() => setLgShow(true)}>{t('apply for help')}</button>
+          
                    
         </div>
+        <Modal
+        size="lg"
+        show={lgShow}
+        onHide={() => setLgShow(false)}
+        backdrop="static"
+        keyboard={false}
+        animation={true}
+        aria-labelledby="example-modal-sizes-title-lg"
+      >
+        <Modal.Header closeButton>
+        </Modal.Header>
+        <Modal.Body>
+          <iframe 
+          className={styles.form}
+          id="inlineFrameExample"
+          title="Inline Frame Example"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSe9--9xMMTgFuTKyErmiKFUu5PV9L-xcjuqCigL9XUdvQ2m3A/viewform?pli=1">
+        </iframe>
+        </Modal.Body>
+      </Modal>
+        
       </Container>
     </section>
   );
