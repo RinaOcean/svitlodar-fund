@@ -23,7 +23,7 @@ const HowToDonate = () => {
             <div className={styles.socialWrapper}>
               <img className={styles.socialIcon} src={viber} width="30" height="30" alt="telephone"/>
               <span>Viber: </span>
-              <a className={styles.social} href="viber://chat?number=380964544769"> +380 96 454 47 69</a><br/>
+              <a className={styles.social} href="viber://chat?number=%2B380964544769"> +380 96 454 47 69</a><br/>
             </div>
 
             <div className={styles.socialWrapper}>

@@ -27,7 +27,7 @@ const Help = () => {
           <div className={styles.socialWrapper}>
             <img className={styles.socialIcon} src={viber} width="30" height="30" alt="viber"/>
             <span>Viber: </span>
-            <a className={styles.social} href="viber://chat?number=380505830640"> +38 050 583 06 40</a>
+            <a className={styles.social} href="viber://chat?number=%2B380505830640"> +38 050 583 06 40</a>
           </div>
 
             
