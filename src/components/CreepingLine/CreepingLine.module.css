@@ -1,0 +1,20 @@
+.creepingLine {
+  position: fixed;
+  z-index: 101;
+  height: 30px;
+  background-color: #ffffff;
+  /* background-color: #f3d409; For browsers that do not support gradients */
+  /* background-image: linear-gradient(to right, #2584CB , #f3d409);
+  background: linear-gradient(214deg, #2584CB 50%, #f3d409 50%); */
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  
+}
+
+@media (min-width: 1200px) {
+  .creepingLine {
+    font-size: 20px;
+    height: 40px;
+  }
+ 
+}

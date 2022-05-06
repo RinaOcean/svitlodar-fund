@@ -10,11 +10,12 @@ import Certificates from './components/Certificates/Certificates';
 import HowToDonate from './components/HowToDonate';
 import Contacts from './components/Contacts';
 import Help from './components/Help';
+import CreepingLine from './components/CreepingLine/CreepingLine';
 
 function App() {
   return (
     <div className="App">
-      
+     <CreepingLine/>
      <Header/>
       <Routes >
       <Route exact path="/"  element={<InitialView/>}/>

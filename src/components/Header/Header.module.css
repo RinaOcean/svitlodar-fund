@@ -1,6 +1,7 @@
 .header {
   display: flex;
   align-items: center;
+  margin-top: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
   
@@ -111,7 +112,11 @@
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
+  .header {    
+    margin-top: 40px;   
+   }
+
   .svitlo {
    font-size: 22px;
  }
