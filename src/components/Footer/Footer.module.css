@@ -4,6 +4,8 @@
   padding-bottom: 15px;
   justify-content: center;
   font-family: Roboto, sans-serif;
+  
+  box-shadow: -2px -2px 15px 0px rgba(0,0,0,0.3);
 }
 
 .svitloDarLogo {

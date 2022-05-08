@@ -150,7 +150,7 @@ const WhatWeDo = () => {
   ]
   const settings = {
     columnCount:{
-      default:5,
+      default:4,
       mobile:3,
       tab:4
     },

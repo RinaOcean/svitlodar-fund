@@ -1,6 +1,6 @@
 .creepingLine {
   position: fixed;
-  z-index: 101;
+  z-index: 3;
   height: 30px;
   background-color: #ffffff; 
   font-family: Roboto, sans-serif;

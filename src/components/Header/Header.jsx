@@ -113,7 +113,7 @@ const Header = () => {
             className={styles.headerNavItem} 
             onClick={handleClose}
             style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
-            to='/certificates'>{t("certificates")}
+            to='/documents'>{t("documents")}
           </NavLink>
 
                                  

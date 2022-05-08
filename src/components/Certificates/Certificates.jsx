@@ -44,8 +44,8 @@ const Certificates = () => {
   const settings = {
     columnCount:{
       default:3,
-      mobile:3,
-      tab:4
+      mobile:2,
+      tab:2
     },
     mode: 'dark'
   }
@@ -56,10 +56,8 @@ const Certificates = () => {
       <div>
         <Lightroom images={images} settings={settings} />
       </div>
-
       </Container>
-    </section>
-    
+    </section>    
   )
 }
 
