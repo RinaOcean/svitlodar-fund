@@ -2,6 +2,8 @@ import Lightroom from 'react-lightbox-gallery';
 import styles from "./WhatWeDo.module.css";
 import Container from "../Container";
 
+import video from "../../assets/video/Our Help_20220517_EN.mp4";
+import video2 from "../../assets/video/our-help-20220516.mp4";
 import img1 from '../../assets/photo/humanitarian_help_01.jpg';
 import img2 from '../../assets/photo/humanitarian_help_02.jpg';
 import img3 from '../../assets/photo/humanitarian_help_03.jpg';
@@ -156,79 +158,20 @@ const WhatWeDo = () => {
     },
     mode: 'dark'
   }
-
   return (
     <Container>
       <section id='whatwedo' className={styles.gallery}>
-        {/* <div className={styles.galleryItem}>
-          <img src={img1} alt='humanitarian help'/>
+       
+        <div className={styles.videoWrapper}>
+          <video className={styles.video} controls>
+           <source src={video} type="video/mp4" />        
+          </video>  
+
+          <video className={styles.video} controls>
+           <source src={video2} type="video/mp4" />        
+          </video> 
+          
         </div>
-        <div className={styles.galleryItem}>
-          <img src={img2} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img3} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img4} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img5} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img6} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img7} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img8} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img9} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img10} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img11} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img12} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img13} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img14} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img15} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img16} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img17} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img18} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img19} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img20} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img21} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img22} alt='humanitarian help'/>
-        </div>
-        <div className={styles.galleryItem}>
-          <img src={img23} alt='humanitarian help'/>
-        </div> */}
 
       <Lightroom images={images} settings={settings} />
 

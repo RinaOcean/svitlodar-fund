@@ -11,15 +11,41 @@
   object-fit: cover;
 }
 
+.videoWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 
+.video {
+  width: 100%;
+  height: auto;
+}
+
+.video:first-child {
+  margin-bottom: 20px;
+}
 
 @media (min-width: 1200px) {
   .gallery {
     padding-top: 120px;
-    padding-bottom: 120px;
-    
+    padding-bottom: 120px;    
   }
- 
+
+  .videoWrapper {
+    flex-wrap: nowrap;
+  }
+
+  .video {
+    width: calc(50% - 10px);
+    height: auto;
+  }
+
+  .video:first-child {
+    margin: 0;
+    margin-right: 20px;
+  }  
 }
 
 @media (min-width: 1400px) {

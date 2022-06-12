@@ -70,16 +70,7 @@ const Header = () => {
             onClick={handleClose}
             style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
             to='/'>{t("main")}
-          </NavLink>
-   
-
-          {/* <NavLink 
-            className={styles.headerNavItem} 
-            onClick={handleClose}
-            style={({isActive})=>({color: isActive ? "rgb(102, 45, 145)": '',pointerEvents: isActive ? "none" : ""})}
-            to='/'>{t("about us")}
-            
-          </NavLink> */}
+          </NavLink>   
 
           <NavLink 
             className={styles.headerNavItem} 
