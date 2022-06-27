@@ -1,3 +1,4 @@
+import React from 'react'
 import Container from "../Container";
 import styles from "./Help.module.css";
 import { useTranslation } from 'react-i18next';

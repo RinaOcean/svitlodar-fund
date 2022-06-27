@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from './Main.module.css'
 import ybHeart from '../../assets/yellowBlueHeart.svg'
 import Container from '../Container'

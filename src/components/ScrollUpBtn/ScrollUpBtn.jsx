@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from "./ScrollUpBtn.module.css";
 import scrollSvg from '../../assets/arrow_up_icon.svg'
 import { useEffect, useState } from "react";

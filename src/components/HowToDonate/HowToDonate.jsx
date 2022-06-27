@@ -1,3 +1,4 @@
+import React from 'react'
 import Container from '../Container'
 import styles from './HowToDonate.module.css'
 import mail from '../../assets/mail_icon.svg';
