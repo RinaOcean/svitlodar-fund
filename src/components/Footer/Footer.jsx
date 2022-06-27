@@ -1,3 +1,4 @@
+import React from 'react'
 import Container from "../Container";
 import styles from "./Footer.module.css";
 import fb from '../../assets/fb_icon.svg';

@@ -1,3 +1,4 @@
+import React from 'react'
 import Container from '../Container'
 import styles from './AboutUs.module.css'
 import yellowEclps from '../../assets/yellowEllipse.svg'
